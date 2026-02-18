@@ -5,9 +5,9 @@ import random
 
 # Descarga y descomprime los datos
 
-url = "https://archive.ics.uci.edu/static/public/17/breast+cancer+wisconsin+diagnostic.zip"
-archivo = "datos/cancer.zip"
-archivo_datos = "datos/wdbc.data"
+#rl = "https://archive.ics.uci.edu/static/public/17/breast+cancer+wisconsin+diagnostic.zip"
+#archivo = "datos/cancer.zip"
+archivo_datos = "../DataSet/breast+cancer+wisconsin+diagnostic/datos/wdbc.data"
 atributos = ['ID', 'Diagnosis'] + [f'feature_{i}' for i in range(1, 31)]
 
 # Descarga datos
